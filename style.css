@@ -52,16 +52,6 @@ header {
     color: rgba(0, 0, 0, 0.613);
 }
 
-
-.hab {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-} .hab img {
-    width: 45px;
-    padding: 5px;
-}
-
 /*Pai*/
 main {
     padding: 50px;
@@ -105,12 +95,12 @@ main {
     padding: 30px;
     border-radius: 22px;
     border: 2px solid #0000001a;
-    color: #0000009a;
+    color: #000000af;
     transition: 0.20s;
     cursor: pointer;
 } .project:hover {
-    border: 2px solid crimson;
-    color: rgb(189, 19, 53);
+    border: 2px solid #EC734F;
+    color: #9e4e36;
 }.lorem-title {
     font-size: 25.1px;
     line-height: 12.1px;
@@ -125,7 +115,7 @@ main {
 
 
 ::selection {
-    background-color: #0b0b0bf4;
-    color: rgb(230, 230, 230);
+    background-color: #BEACA1;
+    color: rgb(14, 14, 14);
 }
 
