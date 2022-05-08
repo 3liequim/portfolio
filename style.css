@@ -22,12 +22,25 @@ header {
     gap: 45.5px;
     justify-content: center;
     align-items: center;
-} .article-hab img {
+} .welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 45vw;
+} .left-conf, .right-conf {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}#photo {
     width: 180px;
     border-radius: 25px;
     box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.37);
     scale: 1.2px;
     -webkit-user-drag: nonep;
+} .conf-photo {
+    width: 35px;
+    cursor: pointer;
 }.article-hab h1 {
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
