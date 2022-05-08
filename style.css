@@ -35,11 +35,12 @@ header {
     flex-direction: row;
     gap: 12px;
 }#photo {
-    width: 180px;
-    border-radius: 25px;
-    box-shadow: 0 0 100px 5px rgba(0, 0, 0, 0.37);
-    scale: 1.2px;
-    -webkit-user-drag: nonep;
+    width: 45%;
+    min-width: 180px;
+    max-width: 360px;
+    border-radius: 8%;
+    box-shadow: 0 0 100px 5px rgb(0 0 0 / 37%);
+    -webkit-user-drag: none;
 } .conf-photo {
     width: 35px;
     cursor: pointer;
